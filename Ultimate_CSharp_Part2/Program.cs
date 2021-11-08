@@ -25,6 +25,10 @@ namespace Ultimate_CSharp_Part2
 
             var cust = new Customer("John", 1);
             Console.WriteLine($"{cust.Name} is Customer {cust.CustomerId}");
+
+            var human = new Human();
+            human.SetBirthDate(new DateTime(1982, 1, 1));
+            Console.WriteLine(human.GetBirthdate());
         }
     }
 }
