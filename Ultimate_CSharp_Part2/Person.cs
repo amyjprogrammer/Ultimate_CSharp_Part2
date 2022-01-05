@@ -18,5 +18,26 @@ namespace Ultimate_CSharp_Part2
 
             return person;
         }
+
+        /*private DateTime _birthdate;
+
+        public DateTime Birthdate
+        {
+            get { return _birthdate; }
+            set { _birthdate = value; }
+        }*/
+
+        //above shows the long way
+        public DateTime Birthdate { get; set; }
+
+        public int Age
+        {
+            get
+            {
+                var timeSpan = DateTime.Today - Birthdate;
+                var years = timeSpan.Days / 365;
+                return years;
+            }
+        }
     }
 }

@@ -29,6 +29,14 @@ namespace Ultimate_CSharp_Part2
             var human = new Human();
             human.SetBirthDate(new DateTime(1982, 1, 1));
             Console.WriteLine(human.GetBirthdate());
+
+            var per = new Person();
+            per.Birthdate = new DateTime(1982, 1, 1);
+            Console.WriteLine(per.Age);
+
+            var cookie = new HttpCookie();
+            cookie["name"] = "Amy";
+            Console.WriteLine(cookie["name"]);
         }
     }
 }
