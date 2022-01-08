@@ -21,7 +21,7 @@ namespace Exercises.Classes
              second.Stop();
              Console.WriteLine($"Second stopwatch is {second.Duration}");*/
 
-            var post = new Post();
+            /*var post = new Post();
             post.Title = "Test";
             Console.WriteLine($"Post Title- {post.Title} was created {post.Created}");
 
@@ -30,7 +30,11 @@ namespace Exercises.Classes
             post.UpVote();
             Console.WriteLine($"Post Count = {post.VoteCount}");
             post.DownVote();
-            Console.WriteLine($"Post Count = {post.VoteCount}");
+            Console.WriteLine($"Post Count = {post.VoteCount}");*/
+
+            var text = new Text();
+            text.Height = 20;//inherited height
+
         }
     }
 }
