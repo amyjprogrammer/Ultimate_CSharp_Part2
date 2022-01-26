@@ -44,8 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessModifiers.cs" />
+    <Compile Include="Composition.cs" />
+    <Compile Include="DBMigrator.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="HttpCookie.cs" />
+    <Compile Include="Installer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Constructors.cs" />
     <Compile Include="Order.cs" />
